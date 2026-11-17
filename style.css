@@ -1,0 +1,56 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: blue;
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  color: white;
+}
+
+.hero .main-content h1 {
+  font-weight: bold;
+}
+
+.hero img {
+  width: 550px;
+  height: 600px;
+  object-fit: cover;
+}
+
+.features-section {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.features-section h2 {
+  font-weight: bold;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Media Query */
+@media (max-width: 764px) {
+  .hero {
+    flex-direction: column;
+  }
+}
